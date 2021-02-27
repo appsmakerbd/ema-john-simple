@@ -1,0 +1,9 @@
+.product-container{
+    display: flex;
+}
+.products-area{
+    width: 70%;
+    margin: 20px 10px 0  50px;
+    border: 1px solid lightblue;
+}
+.cart-box{}

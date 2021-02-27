@@ -1,0 +1,49 @@
+.product{
+    display: flex;
+    border-bottom: 1px solid lightgrey;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.product .image{
+    width: 25%;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.product .image img{
+   
+}
+
+.product .detail{
+    width:73%;
+}
+
+
+.product .detail h2{
+    color: orange;
+    font-size: 24px;
+    font-weight: 400;
+}
+.product .detail h4{
+    color:black;
+}
+
+.product .detail p{
+
+}
+
+.product .detail button{
+    background-color: orange;
+    cursor: pointer;
+    transition:500ms;
+    border:1px solid lightslategray;
+    border-radius: 5px;
+    padding:5px;
+    width:200px
+}
+
+.product .detail button:hover{
+    background-color: darkgoldenrod;
+    color: #fff;
+}
